@@ -26,7 +26,7 @@ client.on('threadCreate', async (thread, newlyCreated) => {
   const postLink = `https://discord.com/channels/${thread.guildId}/${thread.id}`;
 
   await pingChannel.send({
-    content: `New post out! @here ${postLink}`,
+content: `New apk out! -> ${postLink}\n-# ||@here||`,
     allowedMentions: { parse: ['everyone'] },
   });
 });
